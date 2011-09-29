@@ -2,6 +2,12 @@
 
 * http://github.com/ernesto-jimenez/charguess
 
+== NOTE
+
+  If you are using Rails 2.3.14 make sure you use the "rails-2.3.14" branch. The newer version of rake that Rails 
+  requires causes issues when installing the latest version of the charguess gem. The branch is simply version 1.0 
+  of the gem.
+
 == DESCRIPTION:
 
 This gem builds and installs libcharguess and its binding libcharguess-ruby
@@ -20,12 +26,6 @@ This gem builds and installs libcharguess and its binding libcharguess-ruby
 
   CharGuess.guess("áéíóú")
   #=> "UTF-8"
-
-== NOTE
-
-  If you are using Rails 2.3.14 make sure you use the "rails-2.3.14" branch. The newer version of rake that Rails 
-  requires causes issues when installing the latest version of the charguess gem. The branch is simply version 1.0 
-  of the gem.
 
 == CREDITS
 
