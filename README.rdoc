@@ -2,7 +2,7 @@
 
 * http://github.com/ernesto-jimenez/charguess
 
-== NOTE
+== Rails 2.3.14:
 
   If you are using Rails 2.3.14 make sure you use the "rails-2.3.14" branch. The newer version of rake that Rails 
   requires causes issues when installing the latest version of the charguess gem. The branch is simply version 1.0 
